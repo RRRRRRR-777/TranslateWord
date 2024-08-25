@@ -17,11 +17,14 @@
 
 ## 使用方法
 1. 実行するとアプリケーションが開く
+
 ![openApplication](static/openApplication.png)
+
 2. 対象の英単語をクリップボードにコピーする
 3. アプリケーション選択時にスペースキーまたはエンターキーを押下します
-- `Search`ボタンを押下すると検索に使用している[`Weblio`](https://ejje.weblio.jp)の検索ページがクリップボードのコピー内容をもとに表示されます。
+ 
 ![searchedWord](static/searchedWord.png)
+
 4. 検索時に`Trasnlated.csv`に自動で保存されるため単語帳アプリに入力したいときにCSVファイルを使用することができます。
 ### オプション機能
 #### `Always on top`
