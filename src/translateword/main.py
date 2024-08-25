@@ -13,7 +13,7 @@ class Application(tk.Frame):
         super().__init__(master)
 
         # 生成されるCSVファイルのパス指定
-        self.filename = 'Translate.csv'
+        self.filename = 'Translated.csv'
 
         # データフレームの生成
         if not glob.glob(self.filename):
@@ -101,7 +101,9 @@ class Application(tk.Frame):
                 self.label3.config(text='')
 
             if self.check_value.get():
-                self.repalace_word = ['三人称単数現在', '過去形、または過去分詞', '現在分詞', '複数形', '過去形・過去分詞']
+                self.repalace_word = [
+                    '三人称単数現在', '過去形、または過去分詞', '現在分詞', '複数形', '過去形・過去分詞'
+                    ]
                 for i in range(len(self.repalace_word)):
                     if self.trans_word.find(self.repalace_word[i]) != -1:
                         self.word = self.trans_word[
