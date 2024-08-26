@@ -1,7 +1,7 @@
 ## 概要
- 検索した単語を英単語帳に保存するためにCSV出力するアプリケーションです。
- 対象の単語をクリップボードにコピーし、アプリケーション選択時にスペースキーまたはエンターキーを押下すると対象単語の日本語訳が表示されます。
- 検索した単語は検索した際に`Trasnlated.csv`というファイルに自動で記述されます。(`Trasnlated.csv`はSource(翻訳前の単語)とTranslated(翻訳後の単語)の2列によって構成されています。)
+ - 検索した単語を英単語帳に保存するためにCSV出力するアプリケーションです。
+ - 対象の単語をクリップボードにコピーし、アプリケーション選択時にスペースキーまたはエンターキーを押下すると対象単語の日本語訳が表示されます。
+ - 検索した単語は検索した際に`Trasnlated.csv`というファイルに自動で記述されます。(`Trasnlated.csv`はSource(翻訳前の単語)とTranslated(翻訳後の単語)の2列によって構成されています。)
  そのCSVファイルを英単語アプリに入力することで保存します。(英単語アプリはCSV入力できるものであれば何でも良いのですが今回は[`remaindo`](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/jp/app/%25E5%25BF%2598%25E5%258D%25B4%25E6%259B%25B2%25E7%25B7%259A%25E3%2581%25A7%25E6%259A%2597%25E8%25A8%2598%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA-remindo/id1058865810&ved=2ahUKEwjLrO_5ppCIAxWjbvUHHQkGJo4QFnoECAkQAQ&usg=AOvVaw1AMD9lZ3OE_Q0sWM7SHaNf)というアプリケーションを使用しています)
 
 ※ `Trasnlated.csv`の例
